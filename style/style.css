@@ -1,1 +1,45 @@
+#wrapper {
+	width: 100vh;
+	font-size: 1em;
+	font-family: 'roboto', arial, sans-serif;
+}
 
+h1, h2, h3, p, a, th, td, span {
+  color: #968A87;
+  text-decoration: none;
+	font-family: 'roboto', arial, sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #282828;
+  margin: 0;
+}
+
+
+
+
+section {
+
+}
+
+section h1 {
+	color: #1F5C39;
+}
+
+footer {
+	background-color: #1f1f1f;
+}
+
+section {
+	min-height: 100vh;
+	height: auto;
+}
+
+.space {
+  height: 160px;
+  width: 100%;
+}

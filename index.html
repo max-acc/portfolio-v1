@@ -1,1 +1,100 @@
+<!DOCTYPE html>
 
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<title>Max Wenk | Home</title>
+
+		<link rel="stylesheet"  href="style/style.css"  type="text/css">
+    <link rel="stylesheet"  href="style/style_header.css"  type="text/css">
+    <!--
+		<link rel="stylesheet"  href="styleHome.css"  type="text/css">
+		<link rel="stylesheet"  href="styleHomeLanding.css"  type="text/css">
+		<link rel="stylesheet"  href="styleHomeAbout.css"  type="text/css">
+		<link rel="stylesheet"  href="styleHomeHTML.css"  type="text/css">
+		<link rel="stylesheet"  href="styleHomeC.css"  type="text/css">
+		<link rel="stylesheet"  href="styleHomePython.css"  type="text/css">
+		<link rel="stylesheet"  href="styleHomeProjects.css"  type="text/css">
+
+    <link rel="icon" href="pictures/alien.png">
+    -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=New+Tegomin&family=Roboto&display=swap" rel="stylesheet">
+		<meta charset ="utf-8">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="language.js"></script>
+    <script type="text/javascript">
+      window.onload = initialize;
+
+      function initialize() {
+        var $dropdown = $("#country_select");
+        $.each(LanguageList, function(key, value) {
+          $dropdown.
+          append($("<option/>").
+          val(key).
+          text(value));
+        });
+
+        loadsLanguage("EN");
+      }
+    </script>
+	</head>
+
+  <body class="home-body" style="overflow-x: hidden;">
+    <header>
+      <ul>
+        <li><a href="#home"><div><span class="lang-header_home"></span></div></a></li>
+				<li><a href="#skills"><div><span class="lang-header_skills"></span></div></a></li>
+        <li><a href="#projects"><div><span class="lang-header_projects"></span></div></a></li>
+        <li><a href="#contact"><div><span class="lang-header_contact"></span></div></a></li>
+        <li class="select_lang"><select id="country_select" onchange="loadsLanguage(this.value);"></select></li>
+      </ul>
+    </header>
+
+
+    <section id="home">
+      <div>
+
+
+
+        <div>
+          <span class="lang-header_projects"></span>
+        </div>
+        <div>
+          <span class="lang-header_projects"></span>
+        </div>
+      </div>
+      section0
+    </section>
+
+		<section id="aboutme">
+			section1
+		</section>
+
+		<section id="html">
+			section2
+		</section>
+
+		<section id="c">
+			section3
+		</section>
+
+		<section id="python">
+			section4
+		</section>
+
+		<section id="projects">
+			section5
+		</section>
+
+		<section id="contact">
+			Section6
+		</section>
+
+    <footer>
+			Footer
+    </footer>
+  </body>
+</html>

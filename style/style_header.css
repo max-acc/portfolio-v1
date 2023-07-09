@@ -1,0 +1,92 @@
+header {
+	background-color: #1f1f1f;
+
+
+  height: auto;
+  width: 100%;
+  margin: 0;
+  margin-left: 5px;
+  margin-right: 5px;
+  position: fixed;
+  font-size: 1.3em;
+  padding: 20px 20px 20px 20px;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.3);
+	z-index: 1;
+	transition-duration: 1.5s;
+}
+
+header h1, header ul {
+  display: inline;
+  vertical-align: middle;
+}
+
+header h1 {
+  text-align: left;
+	transition: all 1s;
+}
+
+header h1:hover {
+	color: #2a9134;
+  cursor: none;
+	transition: all 1s;
+}
+
+header ul {
+  float: right;
+  list-style-type: none;
+
+}
+
+header ul li {
+  margin-right: 20px;
+  display: inline;
+  height: 25px;
+  width: 150px;
+}
+header ul li a {
+  height: 25px;
+  width: auto;
+  margin-right: 50px;
+  float: left;
+  text-decoration: none;
+	font-weight: bold;
+	transition: all 0.5s;
+}
+
+header ul li a span {
+
+}
+
+header ul li a:hover {
+	transform: scale(1.1);
+}
+
+.select_lang {
+  height: 25px;
+  width: 90px;
+}
+
+header ul li select {
+  background-color: transparent;
+  font-size: 1em;
+
+  color: #968A87;
+  font-weight: bold;
+  border-radius: 5px;
+  border-style: none;
+  margin-right: 50px;
+}
+
+header ul li select:hover {
+  cursor: pointer;
+}
+
+header ul li select option {
+  font-weight: bold;
+  color: #968A87;
+  background-color: #1f1f1f;
+  border-radius: 5px;
+  border-style: none;
+  cursor: pointer;
+}
