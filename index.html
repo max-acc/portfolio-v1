@@ -7,6 +7,7 @@
 
 		<link rel="stylesheet"  href="style/style.css"  type="text/css">
     <link rel="stylesheet"  href="style/style_header.css"  type="text/css">
+    <link rel="stylesheet"  href="style/style_section.css"  type="text/css">
     <!--
 		<link rel="stylesheet"  href="styleHome.css"  type="text/css">
 		<link rel="stylesheet"  href="styleHomeLanding.css"  type="text/css">
@@ -21,13 +22,20 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=New+Tegomin&family=Roboto&display=swap" rel="stylesheet">
 		<meta charset ="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="language.js"></script>
-    <script type="text/javascript">
-      window.onload = initialize;
 
+    <script src="language.js"></script>
+    <script src="particles.js"></script>
+
+
+
+    <script type="text/javascript">
+
+      // Aniated background
+      window.onload = initialize;
       function initialize() {
         var $dropdown = $("#country_select");
         $.each(LanguageList, function(key, value) {
@@ -39,11 +47,16 @@
 
         loadsLanguage("EN");
       }
+
+
     </script>
+
+
 	</head>
 
-  <body class="home-body" style="overflow-x: hidden;">
-    <header>
+  <body class="home-body" style="overflow-x: hidden;" >
+    <div id="particles-js"></div>
+    <header id="header">
       <ul>
         <li><a href="#home"><div><span class="lang-header_home"></span></div></a></li>
 				<li><a href="#skills"><div><span class="lang-header_skills"></span></div></a></li>
@@ -54,47 +67,194 @@
     </header>
 
 
+
+    <!-- Home section --------------------------------------------------------->
     <section id="home">
-      <div>
-
-
-
-        <div>
-          <span class="lang-header_projects"></span>
-        </div>
-        <div>
-          <span class="lang-header_projects"></span>
-        </div>
+      <!-- Headline -->
+      <div class="headline">
+        <h1><div><span class="lang-section_home_header"></span></div></h1>
       </div>
-      section0
+
+      <!-- Content -->
+      <div class="content">
+        short introduciton
+        hello hey
+        im max wenk an i enjoy conding
+
+        picture
+        <span class="material-symbols-outlined">
+          expand_more
+        </span>
+        <span class="fa-solid fa-arrow-down"></span>
+      </div>
+
+      <!-- Go back to the header -->
+      <div class="forward-button">
+        <div class="space"></div>
+        <a href="#aboutme"><button type="button" name="button" class="forwardbtn">
+          <i class="fas fa-arrow-down icon"></i>
+        </button></a>
+      </div>
     </section>
 
-		<section id="aboutme">
-			section1
+    <!-- About me section ----------------------------------------------------->
+    <section id="aboutme">
+      <!-- Headline -->
+      <div class="headline">
+        <h1><div><span class="lang-section_aboutme_header"></span></div></h1>
+      </div>
+
+      <!-- Content -->
+      <div class="content">
+        background
+      </div>
+
+      <!-- Go back to the header -->
+      <div class="back-button">
+        <div class="space"></div>
+        <a href="#header"><button type="button" name="button">
+          <div><span class="lang-section_backButton"></span></div>
+        </button></a>
+      </div>
+    </section>
+
+
+    <!-- Skills section ------------------------------------------------------->
+    <div class="separator"><hr></div>
+		<section id="skills">
+      <!-- Headline -->
+      <div class="headline">
+        <h1><div><span class="lang-section_skills_header"></span></div></h1>
+      </div>
+
+      <!-- Content -->
+      <div class="content">
+        Languages
+        knowledge
+        frameworks
+        tools
+        design
+      </div>
+
+      <!-- Go back to the header -->
+      <div class="back-button">
+        <div class="space"></div>
+        <a href="#header"><button type="button" name="button">
+          <div><span class="lang-section_backButton"></span></div>
+        </button></a>
+      </div>
 		</section>
 
-		<section id="html">
-			section2
-		</section>
-
-		<section id="c">
-			section3
-		</section>
-
-		<section id="python">
-			section4
-		</section>
-
+    <!-- Projects section ----------------------------------------------------->
+    <div class="separator"><hr></div>
 		<section id="projects">
-			section5
+      <!-- Headline -->
+      <div class="headline">
+        <h1><div><span class="lang-section_projects_header"></span></div></h1>
+      </div>
+
+      <!-- Content -->
+      <div class="content">
+
+      </div>
+
+      <!-- Go back to the header -->
+      <div class="back-button">
+        <div class="space"></div>
+        <a href="#header"><button type="button" name="button">
+          <div><span class="lang-section_backButton"></span></div>
+        </button></a>
+      </div>
 		</section>
 
+    <!-- Contact section ------------------------------------------------------>
+    <div class="separator"><hr></div>
 		<section id="contact">
-			Section6
+      <!-- Headline -->
+      <div class="headline">
+        <h1><div><span class="lang-section_contact_header"></span></div></h1>
+      </div>
+
+      <!-- Content -->
+      <div class="content">
+
+      </div>
+
+      <!-- Go back to the header -->
+      <div class="back-button">
+        <div class="space"></div>
+        <a href="#header"><button type="button" name="button">
+          <div><span class="lang-section_backButton"></span></div>
+        </button></a>
+      </div>
 		</section>
+
+    <div class="separator"><hr></div>
+		<section id="asdf1">
+      <!-- Headline -->
+      <div class="headline">
+        <h1><div><span class="lang-section_home_header"></span></div></h1>
+      </div>
+
+      <!-- Content -->
+      <div class="content">
+
+      </div>
+
+      <!-- Go back to the header -->
+      <div class="back-button">
+        <div class="space"></div>
+        <a href="#header"><button type="button" name="button">
+          <div><span class="lang-section_backButton"></span></div>
+        </button></a>
+      </div>
+		</section>
+
+		<section id="asdf2">
+      <!-- Headline -->
+      <div class="headline">
+        <h1><div><span class="lang-section_home_header"></span></div></h1>
+      </div>
+
+      <!-- Content -->
+      <div class="content">
+
+      </div>
+
+      <!-- Go back to the header -->
+      <div class="back-button">
+        <div class="space"></div>
+        <a href="#header"><button type="button" name="button">
+          <div><span class="lang-section_backButton"></span></div>
+        </button></a>
+      </div>
+		</section>
+
+		<section id="asdf3">
+      <!-- Headline -->
+      <div class="headline">
+        <h1><div><span class="lang-section_home_header"></span></div></h1>
+      </div>
+
+      <!-- Content -->
+      <div class="content">
+
+      </div>
+
+      <!-- Go back to the header -->
+      <div class="back-button">
+        <div class="space"></div>
+        <a href="#header"><button type="button" name="button">
+          <div><span class="lang-section_backButton"></span></div>
+        </button></a>
+      </div>
+		</section>
+
 
     <footer>
 			Footer
     </footer>
+    <script src="app.js"></script>
+    <script src="box.js"></script>
   </body>
 </html>

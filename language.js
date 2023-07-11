@@ -8,14 +8,39 @@ var WORDS_EN = {
   "header_home"     : "Home",
   "header_skills"   : "Skills",
   "header_projects" : "Projects",
-  "header_contact"  : "Contact"
+  "header_contact"  : "Contact",
+
+  "section_backButton"  : "Go back!",
+
+  "section_home_header" : "Home",
+
+  "section_aboutme_header" : "About me",
+
+  "section_skills_header"   : "Skills",
+
+  "section_projects_header" : "Projects",
+
+  "section_contact_header"  : "Contact"
+
 };
 
 var WORDS_DE = {
   "header_home"     : "Home",
   "header_skills"   : "Fähigkeiten",
   "header_projects" : "Projekte",
-  "header_contact"  : "Kontakt"
+  "header_contact"  : "Kontakt",
+
+  "section_backButton"  : "Zurück zum Start",
+
+  "section_home_header" : "Home",
+
+  "section_aboutme_header" : "Über mich",
+
+  "section_skills_header"   : "Fähigkeiten",
+
+  "section_projects_header" : "Projekte",
+
+  "section_contact_header"  : "Kontakt"
 };
 
 

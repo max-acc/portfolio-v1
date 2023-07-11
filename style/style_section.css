@@ -1,0 +1,126 @@
+section {
+  min-height: 100vh;
+	height: auto;
+}
+
+.separator {
+  height: 50px;
+}
+.separator hr {
+  width: 300px;
+  background-color: #968A87;
+  color: #968A87;
+  border: none;
+  border-radius: 2px;
+  height: 4px;
+}
+
+section .headline {
+  height: 150px;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0
+}
+
+section .headline h1 {
+  color: #1F5C39;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+section .content {
+  width: 100%;
+  height: auto;
+}
+
+section .forward-button {
+  height: 150px;
+  width: 100%;
+  text-align: center;
+}
+
+section .forward-button .space {
+  height: 50px;
+}
+
+section .forward-button button {
+  font-size: 20px;
+  background-color: #1f1f1f;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 7px;
+
+
+
+  border: none;
+
+
+  width: 80px;
+	height: 44px;
+  transition: all 0.5s;
+	box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: all 0.15s linear;
+}
+
+section .forward-button button:hover {
+	background-color: #1F5C39;
+  cursor: pointer;
+  transform: scale(1.1);
+	transition: all 0.5s;
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+section .forward-button button:hover .icon {
+	top: 150%;
+	animation: moveFromTop 0.15s linear forwards;
+	animation-delay: 0.15s;
+}
+
+@keyframes moveFromTop {
+	0% {
+		top: -50%;
+	}
+	100% {
+		top: 50%;
+	}
+}
+
+section .back-button {
+  height: 150px;
+  width: 100%;
+  text-align: center;
+}
+
+section .back-button .space {
+  height: 50px;
+}
+
+section .back-button button {
+  font-size: 20px;
+  background-color: #1f1f1f;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 7px;
+
+
+  box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.2);
+  border: none;
+  transition: all 0.5s;
+}
+
+section .back-button button:hover {
+	background-color: #1F5C39;
+  cursor: pointer;
+  transform: scale(1.1);
+	transition: all 0.5s;
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.3);
+}

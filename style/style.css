@@ -1,5 +1,5 @@
 #wrapper {
-	width: 100vh;
+	width: 100%;
 	font-size: 1em;
 	font-family: 'roboto', arial, sans-serif;
 }
@@ -16,28 +16,26 @@ html {
 
 body {
 	background-color: #282828;
+  background-color: #151515;
   margin: 0;
+  padding:0;
+}
+
+#particles-js {
+	height: 103%;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
 }
 
 
 
-
-section {
-
-}
-
-section h1 {
-	color: #1F5C39;
-}
 
 footer {
 	background-color: #1f1f1f;
 }
 
-section {
-	min-height: 100vh;
-	height: auto;
-}
+
 
 .space {
   height: 160px;
