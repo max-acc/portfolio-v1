@@ -58,11 +58,11 @@
     <div id="particles-js"></div>
     <header id="header">
       <ul>
-        <li><a href="#home"><div><span class="lang-header_home"></span></div></a></li>
-				<li><a href="#skills"><div><span class="lang-header_skills"></span></div></a></li>
-        <li><a href="#projects"><div><span class="lang-header_projects"></span></div></a></li>
-        <li><a href="#contact"><div><span class="lang-header_contact"></span></div></a></li>
-        <li class="select_lang"><select id="country_select" onchange="loadsLanguage(this.value);"></select></li>
+        <li><a href="#home"><div><span class="lang-header_home">Home</span></div></a></li>
+				<li><a href="#skills"><div><span class="lang-header_skills">Skills</span></div></a></li>
+        <li><a href="#projects"><div><span class="lang-header_projects">Projects</span></div></a></li>
+        <li><a href="#contact"><div><span class="lang-header_contact">Contact</span></div></a></li>
+        <li class="select_lang"><select id="country_select" onchange="loadsLanguage(this.value);">Change language</select></li>
       </ul>
     </header>
 
@@ -70,34 +70,37 @@
 
     <!-- Home section --------------------------------------------------------->
     <section id="home">
-      <!-- Headline -->
-      <div class="headline">
-        <h1><div><span class="lang-section_home_header"></span></div></h1>
-      </div>
-
       <!-- Content -->
       <div class="content">
-        short introduciton
-        hello hey
-        im max wenk an i enjoy conding
+				<div class="home_left">
+					<div class="home_text" style="padding-bottom: 100px; font-weight: bolder; font-size: 60px;"><span class="lang-section_home_hey" style="padding-right: 42px;">Hey !</span><div class="icon_hand">👋</div></div>
+					<div class="home_text" style="font-size: 28px;"><span class="lang-section_home_par1">My name is Max and I really enjoy programming.</span></div>
+					<div class="home_text" style="font-size: 28px;"><span class="lang-section_home_par2">I am a computer scientist who is excitd to learn new stuff.</span></div>
+				</div>
 
-        picture
-        <span class="material-symbols-outlined">
-          expand_more
-        </span>
-        <span class="fa-solid fa-arrow-down"></span>
+				<div class="home_right">
+					<div class="">
+						picture
+					</div>
+					<div class="">
+						links
+					</div>
+				</div>
       </div>
 
       <!-- Go back to the header -->
       <div class="forward-button">
         <div class="space"></div>
         <a href="#aboutme"><button type="button" name="button" class="forwardbtn">
-          <i class="fas fa-arrow-down icon"></i>
+          <span class="material-symbols-outlined">
+            expand_more
+          </span>
         </button></a>
       </div>
     </section>
 
     <!-- About me section ----------------------------------------------------->
+		<div class="separator"><hr></div>
     <section id="aboutme">
       <!-- Headline -->
       <div class="headline">
@@ -255,6 +258,5 @@
 			Footer
     </footer>
     <script src="app.js"></script>
-    <script src="box.js"></script>
   </body>
 </html>

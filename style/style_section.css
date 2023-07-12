@@ -48,26 +48,24 @@ section .forward-button button {
   font-size: 20px;
   background-color: #1f1f1f;
   text-align: center;
+  vertical-align: middle;
   text-decoration: none;
-  padding: 10px 30px;
   border-radius: 7px;
-
-
-
   border: none;
-
-
   width: 80px;
 	height: 44px;
   transition: all 0.5s;
 	box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
-.icon {
-	position: absolute;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	transition: all 0.15s linear;
+.material-symbols-outlined {
+  color: #1F5C39;
+  transform: scale(2);
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 20
 }
 
 section .forward-button button:hover {
@@ -76,21 +74,64 @@ section .forward-button button:hover {
   transform: scale(1.1);
 	transition: all 0.5s;
   box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.3);
+  position: relative;
 }
 
-section .forward-button button:hover .icon {
-	top: 150%;
-	animation: moveFromTop 0.15s linear forwards;
-	animation-delay: 0.15s;
+section .forward-button button:hover span {
+
+  /*transform: scale(2.2);
+  transition: all 0.5s;*/
+
+  animation-name: moveFromTop;
+  animation-duration: 10s;
+  color: #1f1f1f;
 }
 
 @keyframes moveFromTop {
-	0% {
-		top: -50%;
+  0% {
+    position: absolute;
+		top: 0px;
+    left: 28px;
+  }
+  5% {
+    color: #1f1f1f;
+  }
+  10% {
+    position: absolute;
+    top: 22px;
+    left: 28px;
+    color: #1f1f1f;
 	}
-	100% {
-		top: 50%;
+  100% {
+    position: absolute;
+    top: 22px;
+    left: 28px;
+    color: #1f1f1f;
+  }
+  /*
+  100% {
+    position: absolute;
+    top: 0px;
+    left: 28px;
+  }
+
+
+  71% {
+    display: none;
+    visibility: hidden;
 	}
+  76% {
+    display: block;
+    visibility: visible;
+    position: absolute;
+    top: 0px; -4
+    left: 28px;
+	}
+  100% {
+    position: absolute;
+    top: 0px;
+    left: 28px;
+	}*/
 }
 
 section .back-button {
@@ -123,4 +164,40 @@ section .back-button button:hover {
   transform: scale(1.1);
 	transition: all 0.5s;
   box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+section .content {
+  width: 100%;
+  min-height: 42vh;
+  margin-bottom: 84px;
+}
+
+section .home_left {
+  height: auto;
+  width: 58%;
+  float: left;
+  padding-top: 80px;
+}
+section .home_left .home_text {
+  padding-left: 80px;
+}
+.icon_hand {
+  position: absolute;
+  top: 210px;
+  left: 280px;
+  width: 90px;
+  transition: all 0.5s;
+  float: left;
+}
+.icon_hand:hover {
+  cursor: pointer;
+  transform: rotate(-30deg);
+  transform-origin: bottom right;
+  transition: all 0.5s;
+}
+
+section .home_right {
+  height: 100px;
+  width: 42%;
+  float: left;
 }
