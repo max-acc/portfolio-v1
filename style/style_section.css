@@ -20,7 +20,7 @@ section .headline {
   width: 100%;
   text-align: center;
   vertical-align: middle;
-  margin: 0
+  margin: 0;
 }
 
 section .headline h1 {
@@ -41,7 +41,7 @@ section .forward-button {
 }
 
 section .forward-button .space {
-  height: 50px;
+  height: 125px;
 }
 
 section .forward-button button {
@@ -169,6 +169,7 @@ section .back-button button:hover {
 section .content {
   width: 100%;
   min-height: 42vh;
+  height: auto;
   margin-bottom: 84px;
 }
 
@@ -183,21 +184,106 @@ section .home_left .home_text {
 }
 .icon_hand {
   position: absolute;
-  top: 210px;
+  top: 180px;
   left: 280px;
   width: 90px;
   transition: all 0.5s;
   float: left;
 }
 .icon_hand:hover {
-  cursor: pointer;
+  cursor: grab;
   transform: rotate(-30deg);
   transform-origin: bottom right;
   transition: all 0.5s;
 }
 
-section .home_right {
-  height: 100px;
+.home_right {
+  height: auto;
   width: 42%;
   float: left;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.home_picture {
+  height: 300px;
+}
+
+.home_picture_container {
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.home_picture img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.home_picture_overlay {
+  position: relative;
+  top: -304px;
+  bottom: 0;
+  height: 300px;
+  width: 300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #1F5C39;
+  border-radius: 10px;
+}
+
+.home_picture_container:hover .home_picture_overlay {
+  opacity: 1;
+}
+
+.home_picture_overlay div {
+ color: white;
+ font-size: 20px;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+
+.home_links {
+  height: 50px;
+}
+
+.home_links_container {
+  margin: auto;
+}
+
+.home_links_container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.home_links_container ul li {
+  display: inline;
+  padding: 10px;
+}
+
+.home_links_container ul li img{
+  width: 40px;
+  height: 40px;
+  transition: all 0.5s;
+}
+
+.home_links_container ul li img:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.home_links_container ul li .github:hover {
+  filter: invert(100%);
+  color: blue;
+  transition: all 0.5s;
+}
+
+.home_links_container ul li .linkedin:hover {
+  filter: invert(20%) sepia(80%) saturate(3383%) hue-rotate(183deg) brightness(98%) contrast(89%);
+  transition: all 0.5s;
 }

@@ -12,6 +12,12 @@ var WORDS_EN = {
 
   "section_backButton"  : "Go back!",
 
+  "section_home_header"       : "Home",
+  "section_home_hey"          : "Hey !",
+  "section_home_par1"         : "My name is Max and I really enjoy programming.",
+  "section_home_par2"         : "I am a computer scientist who is excitd to learn new stuff.",
+  "home_picture_description"  : "That's me!",
+  "section_home_header" : "Home",
   "section_home_header" : "Home",
 
   "section_aboutme_header" : "About me",
