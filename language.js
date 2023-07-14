@@ -26,8 +26,12 @@ var WORDS_EN = {
 
   "section_projects_header" : "Projects",
 
-  "section_contact_header"  : "Contact"
+  "section_contact_header"  : "Contact",
 
+  "footer_navigation"       : "Navigation",
+  "footer_links"            : "Links",
+  "footer_links_github"     : "GitHub",
+  "footer_links_linkedin"   : "LinkedIn"
 };
 
 var WORDS_DE = {
