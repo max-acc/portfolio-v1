@@ -17,8 +17,6 @@ var WORDS_EN = {
   "section_home_par1"         : "My name is Max and I really enjoy programming.",
   "section_home_par2"         : "I am a computer scientist who is excitd to learn new stuff.",
   "home_picture_description"  : "That's me!",
-  "section_home_header" : "Home",
-  "section_home_header" : "Home",
 
   "section_aboutme_header" : "About me",
 
@@ -42,7 +40,11 @@ var WORDS_DE = {
 
   "section_backButton"  : "Zurück zum Start",
 
-  "section_home_header" : "Home",
+  "section_home_header"       : "Home",
+  "section_home_hey"          : "Hey !",
+  "section_home_par1"         : "Mein Name ist Max, und ich programmiere sehr gerne.",
+  "section_home_par2"         : "Ich bin ein Informatik-Mensch, der gerne neue Dinge lernt.",
+  "home_picture_description"  : "Das bin ich!",
 
   "section_aboutme_header" : "Über mich",
 
@@ -50,7 +52,12 @@ var WORDS_DE = {
 
   "section_projects_header" : "Projekte",
 
-  "section_contact_header"  : "Kontakt"
+  "section_contact_header"  : "Kontakt",
+
+  "footer_navigation"       : "Navigation",
+  "footer_links"            : "Links",
+  "footer_links_github"     : "GitHub",
+  "footer_links_linkedin"   : "LinkedIn"
 };
 
 
