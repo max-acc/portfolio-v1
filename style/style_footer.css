@@ -1,6 +1,6 @@
 footer {
 	background-color: #1f1f1f;
-  height: 240px;
+  height: 200px;
   width: 100%;
   margin: 0;
 	padding: 0;
@@ -27,7 +27,7 @@ footer div ul{
 footer div ul li{
   padding-top: 10px;
   width: 150px;
-  height: 25px;
+  height: 15px;
   text-align: center;
   margin: auto;
 }
@@ -39,6 +39,7 @@ footer div ul li a {
   text-decoration: none;
 	transition: all 0.5s;
   padding: auto;
+	font-size: 0.7em;
 
 }
 

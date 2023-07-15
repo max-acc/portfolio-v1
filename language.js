@@ -27,9 +27,9 @@ var WORDS_EN = {
   "section_contact_header"  : "Contact",
 
   "footer_navigation"       : "Navigation",
-  "footer_links"            : "Links",
-  "footer_links_github"     : "GitHub",
-  "footer_links_linkedin"   : "LinkedIn"
+  "footer_gettouch"            : "Get in touch",
+  "footer_gettouch_github"     : "GitHub",
+  "footer_gettouch_linkedin"   : "LinkedIn"
 };
 
 var WORDS_DE = {
@@ -55,7 +55,7 @@ var WORDS_DE = {
   "section_contact_header"  : "Kontakt",
 
   "footer_navigation"       : "Navigation",
-  "footer_links"            : "Links",
+  "footer_links"            : "In Kontakt treten",
   "footer_links_github"     : "GitHub",
   "footer_links_linkedin"   : "LinkedIn"
 };
