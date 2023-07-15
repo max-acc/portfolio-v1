@@ -4,7 +4,7 @@ section {
 }
 
 .separator {
-  height: 50px;
+  height: 10px;
 }
 .separator hr {
   width: 300px;
@@ -24,6 +24,7 @@ section .headline {
 }
 
 section .headline h1 {
+  padding-top: 40px;
   color: #1F5C39;
   font-size: 40px;
   font-weight: bolder;
