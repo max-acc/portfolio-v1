@@ -14,8 +14,8 @@ var WORDS_EN = {
 
   "section_home_header"         : "Home",
   "section_home_hey"            : "Hey !",
-  "section_home_par1"           : "My name is Max and I really enjoy programming.",
-  "section_home_par2"           : "I am a computer scientist who is excitd to learn new stuff.",
+  "section_home_par1"           : "My name is Max, and I enjoy programming.",
+  "section_home_par2"           : "I am a computer scientist who is excited to learn new stuff.",
   "home_picture_description"    : "That's me!",
 
   "section_aboutme_header"      : "About me",
@@ -27,11 +27,11 @@ var WORDS_EN = {
   "section_skills_javaCat"      : "Java",
   "section_skills_javaDes"      : "I'm developing in Java",
   "section_skills_cCat"         : "C++/C#",
-  "section_skills_cDes"         : "As already written above I started my coding journey with programming microcontrollers especially the Arduino platform. As the Arduino is usually programmed in C++, I do know the basics of C++. There are a lot of projects I've done in the past, most of them were just for fun and are not worth mentioning. C++ helped me understanding the basic concepts of programming and later also of object oriented programming. During the coding pandamic I also learnt C# just for fun.",
+  "section_skills_cDes"         : "As already written above I started my coding journey with programming microcontrollers especially on the Arduino platform. As the Arduino is usually programmed in C++, I do know the basics of C++. There are a lot of projects I've done in the past, most of them were just for fun and are not worth mentioning. C++ helped me understand the basic concepts of programming and later also of object-oriented programming. During the covid pandemic, I also learned C# just for fun.",
   "section_skills_webdevCat"    : "Web Development",
-  "section_skills_webdevDes"    : "As you can might see I do know some of the basics of web develpment in HTML5, CSS3 and JavaScript as this website is hardcoded in those scrpt languages. I konw that my designs are not as astetically pleasing as the websites of UI or UX develpers, but the worse my design skills are the better my written code is. At least I guess so.",
+  "section_skills_webdevDes"    : "As you can see, I know some of the basics of web development in HTML5, CSS3, and JavaScript, as this website is hardcoded in those script languages. I know my designs are not as aesthetically pleasing as the websites of UI or UX developers, but the worse my design skills are, the better my written code is. At least, I guess so.",
   "section_skills_otherCat"     : "Other languages",
-  "section_skills_otherDes"     : "There are a lot of other programming languages I learnt over the past few years like SQL, PHP and R, but I am not as familiar with those as languages as I am with for example with Python. But I still think that the learning process helped me understanding programming concepts better and deeper and also getting an outlook on other languages and their field of use.",
+  "section_skills_otherDes"     : "There are a lot of other programming languages I learned over the past few years, like SQL, PHP, and R, but I am not as familiar with those languages as I am with, for example, Python. But I still think the learning process helped me understand programming concepts better and deeper, and I got an outlook on other languages and their field of use.",
 
   "section_skills_knowledge"    : "Knowledge",
   "section_skills_mlCat"        : "Machine Learning",
