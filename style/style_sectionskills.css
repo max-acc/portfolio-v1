@@ -63,19 +63,18 @@
 #skills table tr .icon ul li {
   display: inline;
   padding: 10px;
+  vertical-align: top;
 }
 
 #skills table tr .icon ul li img {
   filter: grayscale(80%);
   width: 50px;
-  height: 50px;
+  height: auto;
   transition: all 0.5s;
 }
 
 #skills table tr .icon ul li img:hover {
   filter: grayscale(0%);
-  width: 50px;
-  height: 50px;
   transition: all 0.5s;
 }
 
