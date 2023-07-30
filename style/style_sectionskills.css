@@ -1,0 +1,138 @@
+#skills {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+
+}
+
+#skills .content {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#skills .content h2 {
+  text-align: left;
+  margin-left: 20%;
+  padding-left: 10px;
+}
+
+#skills .content .development {
+  text-align: left;
+  width: 100%;
+  min-height: 50px;
+  height: auto;
+}
+
+#skills .content .development div {
+  width: 100%;
+  height: auto;
+  min-height: 50px;
+}
+
+#skills .content .knowledge {
+  text-align: left;
+  width: 100%;
+  min-height: 50px;
+  height: auto;
+}
+
+#skills .content .knowledge div {
+  width: 100%;
+  height: auto;
+  min-height: 50px;
+}
+
+#skills table {
+  width: 80%;
+  margin: 0;
+  padding: 0;
+}
+
+#skills table tr .icon {
+  width: 25%;
+  padding: auto;
+  text-align: center;
+}
+
+#skills table tr .icon ul {
+  list-style: none;
+  padding: 0;
+}
+
+#skills table tr .icon ul li {
+  display: inline;
+  padding: 10px;
+  vertical-align: top;
+}
+
+#skills table tr .icon ul li img {
+  filter: grayscale(80%);
+  width: 50px;
+  height: auto;
+  transition: all 0.5s;
+}
+
+#skills table tr .icon ul li img:hover {
+  filter: grayscale(0%);
+  transition: all 0.5s;
+}
+
+#skills table tr .category {
+  width: 25%;
+  vertical-align: top;
+  padding-top: 20px;
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+#skills table tr .description {
+  width: 50%;
+  vertical-align: top;
+  text-align: justify;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#skills table tr .description div {
+  padding: 7px;
+  background-color: green;
+  border-radius: 5px;
+  height: auto;
+  background-color: white;
+  background: linear-gradient(to bottom right, rgba(255,255,255,0.4), rgba(255,255,255,0.2));
+}
+
+#skills table tr .description div span {
+  color: black;
+}
+
+#skills .content .certificates {
+  text-align: left;
+  width: 100%;
+  min-height: 100px;
+  height: auto;
+}
+
+#skills .content .certificates ul {
+  text-align: center;
+}
+
+#skills .content .certificates ul li {
+  display: inline;
+}
+
+#skills .content .certificates ul li img {
+  width: 284px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+#skills .content .certificates ul li img:hover {
+  transform: scale(1.25);
+  transition: all 0.5s;
+}

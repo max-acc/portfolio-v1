@@ -45,7 +45,7 @@ var pJS = function(tag_id, params){
         }
       },
       opacity: {
-        value: 1,
+        value: 0.1,
         random: false,
         anim: {
           enable: false,
@@ -68,17 +68,17 @@ var pJS = function(tag_id, params){
         enable: true,
         distance: 100,
         color: '#fff',
-        opacity: 1,
+        opacity: 0.1,
         width: 1
       },
       move: {
         enable: true,
-        speed: 2,
+        speed: 1,
         direction: 'none',
         random: false,
         straight: false,
         out_mode: 'out',
-        bounce: false,
+        bounce: true,
         attract: {
           enable: false,
           rotateX: 3000,
@@ -91,11 +91,11 @@ var pJS = function(tag_id, params){
       detect_on: 'canvas',
       events: {
         onhover: {
-          enable: true,
+          enable: false,
           mode: 'grab'
         },
         onclick: {
-          enable: true,
+          enable: false,
           mode: 'push'
         },
         resize: true

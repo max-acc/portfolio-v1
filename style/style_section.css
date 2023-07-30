@@ -4,7 +4,7 @@ section {
 }
 
 .separator {
-  height: 50px;
+  height: 10px;
 }
 .separator hr {
   width: 300px;
@@ -24,6 +24,7 @@ section .headline {
 }
 
 section .headline h1 {
+  padding-top: 40px;
   color: #1F5C39;
   font-size: 40px;
   font-weight: bolder;
@@ -31,108 +32,11 @@ section .headline h1 {
 
 section .content {
   width: 100%;
+  min-height: 42vh;
   height: auto;
+  margin-bottom: 84px;
 }
 
-section .forward-button {
-  height: 150px;
-  width: 100%;
-  text-align: center;
-}
-
-section .forward-button .space {
-  height: 125px;
-}
-
-section .forward-button button {
-  font-size: 20px;
-  background-color: #1f1f1f;
-  text-align: center;
-  vertical-align: middle;
-  text-decoration: none;
-  border-radius: 7px;
-  border: none;
-  width: 80px;
-	height: 44px;
-  transition: all 0.5s;
-	box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.2);
-}
-
-.material-symbols-outlined {
-  color: #1F5C39;
-  transform: scale(2);
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 700,
-  'GRAD' 0,
-  'opsz' 20
-}
-
-section .forward-button button:hover {
-	background-color: #1F5C39;
-  cursor: pointer;
-  transform: scale(1.1);
-	transition: all 0.5s;
-  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.3);
-  position: relative;
-}
-
-section .forward-button button:hover span {
-
-  /*transform: scale(2.2);
-  transition: all 0.5s;*/
-
-  animation-name: moveFromTop;
-  animation-duration: 10s;
-  color: #1f1f1f;
-}
-
-@keyframes moveFromTop {
-  0% {
-    position: absolute;
-		top: 0px;
-    left: 28px;
-  }
-  5% {
-    color: #1f1f1f;
-  }
-  10% {
-    position: absolute;
-    top: 22px;
-    left: 28px;
-    color: #1f1f1f;
-	}
-  100% {
-    position: absolute;
-    top: 22px;
-    left: 28px;
-    color: #1f1f1f;
-  }
-  /*
-  100% {
-    position: absolute;
-    top: 0px;
-    left: 28px;
-  }
-
-
-  71% {
-    display: none;
-    visibility: hidden;
-	}
-  76% {
-    display: block;
-    visibility: visible;
-    position: absolute;
-    top: 0px; -4
-    left: 28px;
-	}
-  100% {
-    position: absolute;
-    top: 0px;
-    left: 28px;
-	}*/
-}
 
 section .back-button {
   height: 150px;
@@ -164,126 +68,4 @@ section .back-button button:hover {
   transform: scale(1.1);
 	transition: all 0.5s;
   box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.3);
-}
-
-section .content {
-  width: 100%;
-  min-height: 42vh;
-  height: auto;
-  margin-bottom: 84px;
-}
-
-section .home_left {
-  height: auto;
-  width: 58%;
-  float: left;
-  padding-top: 80px;
-}
-section .home_left .home_text {
-  padding-left: 80px;
-}
-.icon_hand {
-  position: absolute;
-  top: 180px;
-  left: 280px;
-  width: 90px;
-  transition: all 0.5s;
-  float: left;
-}
-.icon_hand:hover {
-  cursor: grab;
-  transform: rotate(-30deg);
-  transform-origin: bottom right;
-  transition: all 0.5s;
-}
-
-.home_right {
-  height: auto;
-  width: 42%;
-  float: left;
-  text-align: center;
-  padding-top: 80px;
-}
-
-.home_picture {
-  height: 300px;
-}
-
-.home_picture_container {
-  height: 300px;
-  width: 300px;
-  margin: auto;
-  border-radius: 10px;
-}
-
-.home_picture img {
-  width: 300px;
-  height: 300px;
-  border-radius: 10px;
-}
-
-.home_picture_overlay {
-  position: relative;
-  top: -304px;
-  bottom: 0;
-  height: 300px;
-  width: 300px;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #1F5C39;
-  border-radius: 10px;
-}
-
-.home_picture_container:hover .home_picture_overlay {
-  opacity: 1;
-}
-
-.home_picture_overlay div {
- color: white;
- font-size: 20px;
- position: absolute;
- top: 50%;
- left: 50%;
- transform: translate(-50%, -50%);
-}
-
-.home_links {
-  height: 50px;
-}
-
-.home_links_container {
-  margin: auto;
-}
-
-.home_links_container ul {
-  list-style: none;
-  padding: 0;
-}
-
-.home_links_container ul li {
-  display: inline;
-  padding: 10px;
-}
-
-.home_links_container ul li img{
-  width: 40px;
-  height: 40px;
-  transition: all 0.5s;
-}
-
-.home_links_container ul li img:hover{
-  cursor: pointer;
-  transform: scale(1.1);
-  transition: all 0.5s;
-}
-
-.home_links_container ul li .github:hover {
-  filter: invert(100%);
-  color: blue;
-  transition: all 0.5s;
-}
-
-.home_links_container ul li .linkedin:hover {
-  filter: invert(20%) sepia(80%) saturate(3383%) hue-rotate(183deg) brightness(98%) contrast(89%);
-  transition: all 0.5s;
 }
