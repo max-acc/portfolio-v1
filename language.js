@@ -23,7 +23,7 @@ var WORDS_EN = {
   "section_skills_header"       : "Skills",
   "section_skills_development"  : "Development",
   "section_skills_pythonCat"    : "Python",
-  "section_skills_pythonDes"    : "I'm develping in Python",
+  "section_skills_pythonDes"    : "Over the past few years, Python just became my go-to language. Its ease of use and plainness when writing short scripts, while maintaining its clarity when writing large programs, made the language perfect for me. Most of my recently done projects are in Python.",
   "section_skills_javaCat"      : "Java",
   "section_skills_javaDes"      : "Even though I am not liking Java (I don't know why;), I am developing a lot with this language due to working with it in school. Java was required by my teachers because the projects planned by them were all in Java. In my later school years, I continued programming in Java because of the simplicity of running the code on any device. Some of my worth-mentioning programs in Java are an explicitly programmed face recognition (I don't know what drove thinking this was a good idea) and my first self-coded Machine Learning program that can classify flowers. My current project is about programming a neural network for image classification in a peculiar way for feature engineering.",
   "section_skills_cCat"         : "C++/C#",
@@ -35,9 +35,9 @@ var WORDS_EN = {
 
   "section_skills_knowledge"    : "Knowledge",
   "section_skills_mlCat"        : "Machine Learning",
-  "section_skills_mlDes"        : "I know the basics of other languages",
+  "section_skills_mlDes"        : "During a summer course at the student research center Phaenvum in Lörrach, I became aware of Machine Learning for the first time. And since then, it hasn't let go of me. Especially image recognition or classification caught my interest, and since then, I am still exploring Machine Learning. And one year after this course, I tried to program my first Machine Learning program. This sounds trivial, but I wrote the program entirely by myself without relying upon something else. The process helped me understand the basics of Machine Learning. Currently, I am about to get a deeper understanding of neural networks and how to program them. My goal is to code image recognition which is using special aspects for feature engineering.",
   "section_skills_gitCat"       : "Git and GitHub",
-  "section_skills_gitDes"       : "I know the basics of other languages",
+  "section_skills_gitDes"       : "I do not know how and when, but I discovered Git for version controlling and GitHub as the database for storing those versions at some time, and since then, I never skipped using Git and GitHub. In my opinion, those tools are just useful to use, especially if you are testing and implementing new features into a project.",
 
   "section_projects_header"     : "Projects",
 
