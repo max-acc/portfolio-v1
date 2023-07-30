@@ -20,27 +20,27 @@
 #skills .content .development {
   text-align: left;
   width: 100%;
-  min-height: 100px;
+  min-height: 50px;
   height: auto;
 }
 
 #skills .content .development div {
   width: 100%;
   height: auto;
-  min-height: 100px;
+  min-height: 50px;
 }
 
 #skills .content .knowledge {
   text-align: left;
   width: 100%;
-  min-height: 100px;
+  min-height: 50px;
   height: auto;
 }
 
 #skills .content .knowledge div {
   width: 100%;
   height: auto;
-  min-height: 100px;
+  min-height: 50px;
 }
 
 #skills table {
@@ -91,7 +91,22 @@
   vertical-align: top;
   text-align: justify;
   padding-top: 20px;
+  padding-bottom: 20px;
   padding-left: 10px;
+  padding-right: 10px;
+}
+
+#skills table tr .description div {
+  padding: 7px;
+  background-color: green;
+  border-radius: 5px;
+  height: auto;
+  background-color: white;
+  background: linear-gradient(to bottom right, rgba(255,255,255,0.4), rgba(255,255,255,0.2));
+}
+
+#skills table tr .description div span {
+  color: black;
 }
 
 #skills .content .certificates {

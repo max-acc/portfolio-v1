@@ -25,7 +25,7 @@ var WORDS_EN = {
   "section_skills_pythonCat"    : "Python",
   "section_skills_pythonDes"    : "I'm develping in Python",
   "section_skills_javaCat"      : "Java",
-  "section_skills_javaDes"      : "I'm developing in Java",
+  "section_skills_javaDes"      : "Even though I am not liking Java (I don't know why;), I am developing a lot with this language due to working with it in school. Java was required by my teachers because the projects planned by them were all in Java. In my later school years, I continued programming in Java because of the simplicity of running the code on any device. Some of my worth-mentioning programs in Java are an explicitly programmed face recognition (I don't know what drove thinking this was a good idea) and my first self-coded Machine Learning program that can classify flowers. My current project is about programming a neural network for image classification in a peculiar way for feature engineering.",
   "section_skills_cCat"         : "C++/C#",
   "section_skills_cDes"         : "As already written above I started my coding journey with programming microcontrollers especially on the Arduino platform. As the Arduino is usually programmed in C++, I do know the basics of C++. There are a lot of projects I've done in the past, most of them were just for fun and are not worth mentioning. C++ helped me understand the basic concepts of programming and later also of object-oriented programming. During the covid pandemic, I also learned C# just for fun.",
   "section_skills_webdevCat"    : "Web Development",
