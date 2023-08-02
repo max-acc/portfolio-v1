@@ -19,6 +19,8 @@ var WORDS_EN = {
   "home_picture_description"    : "That's me!",
 
   "section_aboutme_header"      : "About me",
+  "aboutme_background"          : "Background",
+  "aboutme_description"         : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,",
 
   "section_skills_header"       : "Skills",
   "section_skills_development"  : "Development",
@@ -42,6 +44,8 @@ var WORDS_EN = {
   "section_projects_header"     : "Projects",
 
   "section_contact_header"      : "Contact",
+  "section_contact_interest"    : "I aroused your interest?",
+  "section_contact_feel"        : "Feel free to contact me!",
 
   "footer_navigation"           : "Navigation",
   "footer_gettouch"             : "Get in touch",
