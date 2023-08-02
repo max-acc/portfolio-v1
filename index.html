@@ -8,9 +8,7 @@
     <link rel="stylesheet"  href="style/style_header.css"  type="text/css">
     <link rel="stylesheet"  href="style/style_section.css"  type="text/css">
 		<link rel="stylesheet"  href="style/style_sectionhome.css"  type="text/css">
-		<link rel="stylesheet"  href="style/style_sectionabout.css"  type="text/css">
 		<link rel="stylesheet"  href="style/style_sectionskills.css"  type="text/css">
-		<link rel="stylesheet"  href="style/style_sectioncontact.css"  type="text/css">
 		<link rel="stylesheet"  href="style/style_footer.css"  type="text/css">
 
 
@@ -65,13 +63,12 @@
 
   <body class="home-body" style="overflow-x: hidden;" >
     <div id="particles-js"></div>
-		<div id="header"></div>
     <header id="header">
       <ul>
-        <li><a href="#goto-home"><div><span class="lang-header_home">Home</span></div></a></li>
-				<li><a href="#goto-skills"><div><span class="lang-header_skills">Skills</span></div></a></li>
-        <li><a href="#goto-projects"><div><span class="lang-header_projects">Projects</span></div></a></li>
-        <li><a href="#goto-contact"><div><span class="lang-header_contact">Contact</span></div></a></li>
+        <li><a href="#home"><div><span class="lang-header_home">Home</span></div></a></li>
+				<li><a href="#skills"><div><span class="lang-header_skills">Skills</span></div></a></li>
+        <li><a href="#projects"><div><span class="lang-header_projects">Projects</span></div></a></li>
+        <li><a href="#contact"><div><span class="lang-header_contact">Contact</span></div></a></li>
         <li class="select_lang"><select id="country_select" onchange="loadsLanguage(this.value);">Change language</select></li>
       </ul>
     </header>
@@ -79,7 +76,6 @@
 
 
     <!-- Home section --------------------------------------------------------->
-		<div id="goto-home" class="space"></div>
     <section id="home">
       <!-- Content -->
       <div class="content">
@@ -112,7 +108,7 @@
       <!-- Go back to the header -->
       <div class="forward-button">
         <div class="space"></div>
-        <a href="#goto-aboutme"><button type="button" name="button" class="forwardbtn">
+        <a href="#aboutme"><button type="button" name="button" class="forwardbtn">
           <span class="material-symbols-outlined">
             expand_more
           </span>
@@ -121,7 +117,7 @@
     </section>
 
     <!-- About me section ----------------------------------------------------->
-		<div id="goto-aboutme" class="separator"><hr></div>
+		<div class="separator"><hr></div>
     <section id="aboutme">
       <!-- Headline -->
       <div class="headline">
@@ -131,18 +127,14 @@
       <!-- Content -->
       <div class="content" style="text-align: center;">
 				<p>! --- Currently in Progress --- !</p>
-				<table>
-					<tr>
-						<td class="background"><div><span class="lang-aboutme_background">Background</span></div></td>
-						<td class="description"><div><span class="lang-aboutme_description">Content is not beeing displayed correctly</span></div></td>
-					</tr>
-				</table>
+				<!--
+        background -->
       </div>
 
       <!-- Go back to the header -->
       <div class="back-button">
         <div class="space"></div>
-        <a href="#goto-header"><button type="button" name="button">
+        <a href="#header"><button type="button" name="button">
           <div><span class="lang-section_backButton"></span></div>
         </button></a>
       </div>
@@ -150,7 +142,7 @@
 
 
     <!-- Skills section ------------------------------------------------------->
-    <div id="goto-skills" class="separator"><hr></div>
+    <div class="separator"><hr></div>
 		<section id="skills">
       <!-- Headline -->
       <div class="headline">
@@ -273,14 +265,14 @@
       <!-- Go back to the header -->
       <div class="back-button">
         <div class="space"></div>
-        <a href="#goto-header"><button type="button" name="button">
+        <a href="#header"><button type="button" name="button">
           <div><span class="lang-section_backButton"></span></div>
         </button></a>
       </div>
 		</section>
 
     <!-- Projects section ----------------------------------------------------->
-    <div id="goto-projects" class="separator"><hr></div>
+    <div class="separator"><hr></div>
 		<section id="projects">
       <!-- Headline -->
       <div class="headline">
@@ -295,14 +287,14 @@
       <!-- Go back to the header -->
       <div class="back-button">
         <div class="space"></div>
-        <a href="#goto-header"><button type="button" name="button">
+        <a href="#header"><button type="button" name="button">
           <div><span class="lang-section_backButton"></span></div>
         </button></a>
       </div>
 		</section>
 
     <!-- Contact section ------------------------------------------------------>
-    <div id="goto-contact" class="separator"><hr></div>
+    <div class="separator"><hr></div>
 		<section id="contact">
       <!-- Headline -->
       <div class="headline">
@@ -311,19 +303,13 @@
 
       <!-- Content -->
       <div class="content" style="text-align: center;">
-					<div class="">
-						<div><span class="lang-section_contact_interest">I aroused your interest?</span></div>
-						<div><span class="lang-section_contact_feel">Feel free to contact me!</span></div>
-					</div>
-					<div class="">
-						<a href="mailto:max.wenk@protonmail.com"><button type="button" name="button">max.wenk@protonmail.com</button></a>
-					</div>
+				<p>! --- Currently in Progress --- !</p>
       </div>
 
       <!-- Go back to the header -->
       <div class="back-button">
         <div class="space"></div>
-        <a href="#goto-header"><button type="button" name="button">
+        <a href="#header"><button type="button" name="button">
           <div><span class="lang-section_backButton"></span></div>
         </button></a>
       </div>
@@ -338,10 +324,10 @@
 				<ul>
 					<li style="padding-bottom: 10px;"><div style="text-decoration: none; text-decoration-color: #968A87;font-size: 0.9em;"><span class="lang-footer_navigation">Navigation</span></div></li>
 					<li><a href="#header"><div><span class="lang-section_home_header">Home</span></div></a></li>
-					<li><a href="#goto-aboutme"><div><span class="lang-section_aboutme_header">About Me</span></div></a></li>
-					<li><a href="#goto-skills"><div><span class="lang-header_skills">Skills</span></div></a></li>
-					<li><a href="#goto-projects"><div><span class="lang-header_projects">Projects</span></div></a></li>
-					<li><a href="#goto-contact"><div><span class="lang-header_contact">Contact</span></div></a></li>
+					<li><a href="#aboutme"><div><span class="lang-section_aboutme_header">About Me</span></div></a></li>
+					<li><a href="#skills"><div><span class="lang-header_skills">Skills</span></div></a></li>
+					<li><a href="#projects"><div><span class="lang-header_projects">Projects</span></div></a></li>
+					<li><a href="#contact"><div><span class="lang-header_contact">Contact</span></div></a></li>
 				</ul>
 			</div>
 			<div class="gettouch">
