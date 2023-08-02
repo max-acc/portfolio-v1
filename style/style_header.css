@@ -1,12 +1,10 @@
 header {
 	background-color: #1f1f1f;
-
-
-  height: 70px;
+	height: 30px;
   width: 100%;
   margin: 0;
 	padding: 20px;
-  /*position: fixed;*/
+  position: fixed;
   z-index: 2;
   font-size: 1.3em;
   /*border-radius: 0 0 20px 20px;*/
@@ -32,6 +30,7 @@ header h1:hover {
 }
 
 header ul {
+	margin-top: 5px;
   float: right;
   list-style-type: none;
 
