@@ -1,10 +1,12 @@
 header {
 	background-color: #1f1f1f;
-	height: 30px;
+
+
+  height: 70px;
   width: 100%;
   margin: 0;
 	padding: 20px;
-  position: fixed;
+  /*position: fixed;*/
   z-index: 2;
   font-size: 1.3em;
   /*border-radius: 0 0 20px 20px;*/
@@ -30,7 +32,6 @@ header h1:hover {
 }
 
 header ul {
-	margin-top: 1px;
   float: right;
   list-style-type: none;
 
@@ -62,7 +63,7 @@ header ul li a:hover {
 
 .select_lang {
   height: 25px;
-  width: 100px;
+  width: 90px;
 }
 
 header ul li select {
@@ -70,12 +71,10 @@ header ul li select {
   font-size: 1em;
 
   color: #968A87;
-  font-weight: lighter;
+  font-weight: bold;
   border-radius: 5px;
   border-style: none;
   margin-right: 50px;
-	padding-left: 5px;
-	padding-right: 5px;
 }
 
 header ul li select:hover {
@@ -88,9 +87,5 @@ header ul li select option {
   background-color: #1f1f1f;
   border-radius: 5px;
   border-style: none;
-  cursor: pointer;
-}
-
-header ul li select option:hover {
   cursor: pointer;
 }
