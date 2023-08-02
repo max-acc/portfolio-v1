@@ -44,6 +44,8 @@ var WORDS_EN = {
   "section_projects_header"     : "Projects",
 
   "section_contact_header"      : "Contact",
+  "section_contact_interest"    : "I aroused your interest?",
+  "section_contact_feel"        : "Feel free to contact me!",
 
   "footer_navigation"           : "Navigation",
   "footer_gettouch"             : "Get in touch",
